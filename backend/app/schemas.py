@@ -9,5 +9,4 @@ class PersonBase(BaseModel):
     class Config:
         orm_mode = True
 
-# Use the same class for response, no need for complex models
 Person = PersonBase
